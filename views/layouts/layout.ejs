@@ -46,7 +46,16 @@
   <body>
     <div purpose="page-wrap">
       <header class="navbar navbar-expand-sm navbar-dark bg-dark flex-column flex-md-row justify-content-between" purpose="page-header">
-        <a style="cursor: pointer;" class="navbar-brand mr-0 logo_title" href="/"><img style="height: 70px;" class="logo" alt="NEW_APP_NAME logo" src="https://contenido-web.s3.amazonaws.com/jecarvajal.png"/>JECARVAJAL</a>
+        <!-- genere div with flex board with logo and text -->
+
+        
+
+        <a style="cursor: pointer;" class="navbar-brand mr-0 d-flex align-items-center pl-1 logo_title" href="/"><img style="height: 70px;" class="logwo" alt="NEW_APP_NAME logo" src="https://contenido-web.s3.amazonaws.com/jecarvajal.png"/>
+          <div class="pl-2">
+            JECARVAJAL
+          </div>
+        </a>
+
         <div class="navbar-nav flex-row">
           <!-- LOGGED-IN NAVIGATION -->
           <% if(me) { %>
