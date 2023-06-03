@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    npm install sails -g
+    sails lift
   displayName: 'npm install and build'
