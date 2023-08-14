@@ -10,12 +10,12 @@
 
 module.exports.policies = {
 
-  '*': 'is-logged-in',
+  //'*': 'is-logged-in',
 
   // Bypass the `is-logged-in` policy for:
   'entrance/*': true,
   'account/logout': true,
-  'view-homepage-or-redirect': true,
+  'view-homepage-or-redirect': false,
   'view-faq': true,
   'view-contact': true,
   'legal/view-terms': true,
